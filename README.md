@@ -70,7 +70,6 @@ Wallet RPC server tarafında çalışmalıdır.
 
 Örnek:
 
-bash
 Kodu kopyala
 monero-wallet-rpc.exe \
   --wallet-file mywallet \
@@ -81,8 +80,7 @@ monero-wallet-rpc.exe \
 Önerilen: Remote node
 
 ▶️ Server Başlatma
-bash
-Kodu kopyala
+
 python servermain.py
 Varsayılan port:
 
@@ -95,8 +93,7 @@ bash
 Kodu kopyala
 nc 127.0.0.1 5555
 Telnet
-bash
-Kodu kopyala
+
 telnet 127.0.0.1 5555
 🔐 Giriş Akışı
 makefile
@@ -114,15 +111,13 @@ Kodu kopyala
 2) Monero Dashboard
 0) Logout
 Monero Dashboard
-scss
-Kodu kopyala
+
 1) Balance
 2) History        (pro / root)
 3) Transfer       (root)
 0) Back
 👥 Yeni Kullanıcı Oluşturma (Root)
-yaml
-Kodu kopyala
+
 Username:
 Password:
 Role (low/pro/root):
@@ -170,8 +165,6 @@ Web dashboard
 
 2FA / OTP
 
-yaml
-Kodu kopyala
 
 ---
 
@@ -181,6 +174,3 @@ Kodu kopyala
 - 🔐 **TLS eklenmiş versiyon**
 - 🧪 **Mock / demo wallet**
 
-hazırlayabilirim.
-
-Hangisine geçelim?
